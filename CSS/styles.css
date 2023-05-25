@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #CC0000;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:          20px;
+    margin:             0;
+    padding:            0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+#pokedex{
+  height: 10%;
+  width: 10%;
+}
+#pokedex{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#search{
+  background-color: #ffcb05;
+
+}
+#search:hover{
+  border-radius: 70%;
+  background-color: #ffcb05;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBox input {
+  border-radius: 8px 0 0 8px;
+  border: 0;
+  outline: none;
+  height: 36px;
+  padding: 4px 16px;
+  background-color: white;
+  color: #000;
+}
+
+.searchBox button {
+  border-radius: 0 8px 8px 0;
+  border: 0;
+  height: 36px;
+  padding: 4px 16px;
+  background-color: white;
+}
+
+.pokemonBox {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.pokemonBox img {
+  width: 200px;
+}
+
+.pokemonBox p {
+  margin-top: 1rem;
+}
+
+.pokemonBox .pokemonInfos {
+  padding: 2rem;
+}
+footer {
+  background-color:   #CC0000;
+  padding:            25px 50px;
+  margin-top:         200px;
+  display:            flex;
+  justify-content:    space-around;
+  align-items:        center;
+}
+footer .social img{
+  padding-top:        15px;
+}
+footer h3 {
+  color:            #fff;
+}
+
+
+footer a {  
+  color:             #fff;
+  text-decoration:     none;
+}
+
